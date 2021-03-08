@@ -1,0 +1,32 @@
+[meta title:"CS112 - {{title}}" /]
+
+[Header
+  fullWidth:true
+  title:"{{title}}"
+  subtitle:"This page contains nothing. You should add to it!"
+  author:"Andre Vacha"
+  background:"#222222"
+  color:"#ffffff"
+   /]
+
+// boiler plate
+[HomeButton /]
+[LoadExercises /]
+
+# This is a post in our CS112 wiki
+
+Isn't life wonderful, friends?
+
+// custom components and how to use them
+[Resource
+  name: "Some Class Reading"
+  description: "tons of crap about statistics"
+  link: "importinterestingidea.com" /]
+
+[FullWidth]
+  [Exercise
+    height: 200
+    marginSides: "50px"
+    initial: "# print Hello World"
+    hint: "use a print statement"/]
+[/FullWidth]

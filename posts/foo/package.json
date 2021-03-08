@@ -1,0 +1,22 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "idyll": {
+    "theme": "default",
+    "layout": "centered",
+    "css": "styles.css",
+    "authorView": false,
+    "output": "../../docs/foo/",
+    "components": [
+      "../../components/",
+      "components"
+    ]
+  },
+  "dependencies": {
+    "idyll": "^4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
