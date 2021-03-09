@@ -3,8 +3,7 @@
 [Header
   fullWidth:true
   title:"{{title}}"
-  subtitle:"This page contains nothing. You should add to it!"
-  author:"Andre Vacha"
+  subtitle:"text name of the session"
   background:"#222222"
   color:"#ffffff"
    /]
@@ -12,6 +11,7 @@
 // boiler plate
 [HomeButton /]
 [LoadExercises /]
+[LearningOutcomes los:`["decisiondata", "decisionbrief"]` /]
 
 # This is a post in our CS112 wiki
 

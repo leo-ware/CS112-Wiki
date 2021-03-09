@@ -57,7 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
-# .idyll # why was this here? -Leo
+.idyll
 build
-
-docs/.DS_Store
